@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    line-height: 1.5;
+}
+
+/* HEADER SECTION
+-------------------------*/
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    background-image: url(Images/Header\ Background.jpg);
+    background-size: 1px cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #fff;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+header img {
+    max-width: 80%;
+    width: 340px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+/* HEADER SECTION
+-------------------------*/
+
+#about {
+    padding: 20px 60px;
+    border-top: 3px solid #54ADF1;
+    width: 95%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
+/* CAREER SECTION
+-------------------------*/
+
+#career {
+    padding: 60px;
+    border-top: 3px solid #54ADF1;
+    width: 95%;
+    margin: 150px auto;
+}
+
+.career-imgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.career-imgs img {
+    max-width: 60%;
+    height: auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h4 {
+    margin: 20px 0;
+    font-size: 1.4em;
+}
+
+#awards ul li {
+    margin: 35px 0;
+}
+
+/* AWARDS SECTION
+-------------------------*/
+
+#awards {
+    padding: 60px;
+    border-top: 3px solid #54ADF1;
+    width: 95%;
+    margin: 150px auto;
+}
+
+/* MORE SECTION
+-------------------------*/
+
+#more {
+    padding: 60px;
+    border-top: 3px solid #54ADF1;
+    width: 95%;
+    margin: 150px auto;
+}
+
+a {
+    color: #000;
+}
+
+#more p {
+    margin: 30px 0;
+}
+
+/* RESPONSIVE
+-------------------------*/
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    #about,
+    #career,
+    #awards,
+    #more {
+        padding: 0;
+    }
+
+    .career-imgs .box {
+        padding: 8px;
+    }
+
+    .career-imgs img {
+        max-width: 100%;
+    }
+}
